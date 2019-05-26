@@ -15,6 +15,6 @@ def oxford_comma(array)
   # #keep_3 = this1, this2, and
   #   keep_three << keep
     keeper = array.join(', ')
-    keeper << ',and '
+    keeper << ', and '
   end
 end
