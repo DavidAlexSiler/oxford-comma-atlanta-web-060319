@@ -3,8 +3,7 @@ def oxford_comma(array)
     array.join (' ')
   elsif array.length == 2 
     array.join(' and ')
-  elsif array.length == 3
-  #this1, this2, this3
+  else 
     keep = array.pop()
     keeps = keep.to_str
     keeper = array.join(', ')
