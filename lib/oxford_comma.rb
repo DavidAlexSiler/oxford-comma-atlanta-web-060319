@@ -16,3 +16,4 @@ def oxford_comma(array)
   return keep_too + ", and " + #{keep}
   end
 end
+end
