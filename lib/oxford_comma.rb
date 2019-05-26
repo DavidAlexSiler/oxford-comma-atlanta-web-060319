@@ -6,6 +6,7 @@ def oxford_comma(array)
   elsif array.length == 3
   #this1, this2, this3
     keep = array.pop()
+    keeps = keep.split('')
   #keep = this3
   #array = this1, this2 
     #keep_too = array.join(", ")
@@ -13,6 +14,6 @@ def oxford_comma(array)
   # keep_three = keep_too.push('and')
   # #keep_3 = this1, this2, and
   #   keep_three << keep
-    return keeper = ", and " + #{keep}
+    return keeper = ", and " + 
   end
 end
