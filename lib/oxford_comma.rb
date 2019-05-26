@@ -14,6 +14,6 @@ def oxford_comma(array)
   # #keep_3 = this1, this2, and
   #   keep_three << keep
   answer = keep_too + ", and " + #{keep}
-    return answer
   end
+    return answer
 end
