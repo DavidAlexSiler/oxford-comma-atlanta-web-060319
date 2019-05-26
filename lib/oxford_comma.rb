@@ -13,6 +13,6 @@ def oxford_comma(array)
   # keep_three = keep_too.push('and')
   # #keep_3 = this1, this2, and
   #   keep_three << keep
-    keeper = ", and " + '#{keep}'
+    return keeper = ", and " + '#{keep}'
   end
 end
