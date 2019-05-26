@@ -8,7 +8,7 @@ def oxford_comma(array)
     keep = array.pop()
   #keep = this3
   #array = this1, this2 
-    keep_too = array.join(", ")
+    #keep_too = array.join(", ")
   # #keep_2 = this1, this2
   # keep_three = keep_too.push('and')
   # #keep_3 = this1, this2, and
