@@ -16,5 +16,6 @@ def oxford_comma(array)
   #   keep_three << keep
     keeper = array.join(', ')
     kreeper = keeper << ', and '
+    kreeper << keeps
   end
 end
